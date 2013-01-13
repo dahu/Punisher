@@ -1,4 +1,4 @@
-https://raw.github.com/dahu/Punisher/master/README.asciidoc[plaintext]
+https://raw.github.com/dahu/Punisher/master/README.asciidoc
 
 Punisher
 --------
