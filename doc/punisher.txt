@@ -1,0 +1,29 @@
+*punisher.vim*	For Vim version 7.3	Last change: 2013-01-13
+
+
+			VIM REFERENCE MANUAL	by Barry Arthur
+
+
+Help on using punisher                                              *punisher*
+
+1. Introduction				|punisher-intro|
+
+==============================================================================
+ 1. INTRODUCTION                                              *punisher-intro*
+
+Punisher hurts you where it hurts most - your time.
+
+Punisher aims to penalise bad habits by sleeping for an increasingly longer
+delay as the infringements mount. You have to :Atone for your sins to reset
+the delay.
+
+EXAMPLE~
+
+Put this in ~/.vim/plugin/punishments.vim to train you out of the habit of
+using   A<CR>   when you should be using   o   instead:
+>
+  nnoremap <expr> A Penalty('A')
+  inoremap <expr> <cr> Punish("\<cr>")
+<
+
+ vim:tw=78:ts=8:ft=help:norl:

@@ -1,0 +1,18 @@
+Punisher
+--------
+
+__Punisher hurts you where it hurts most - your time.__
+
+Punisher aims to penalise bad habits by sleeping for an increasingly longer
+delay as the infringements mount. You have to :Atone for your sins to reset
+the delay.
+
+Example
+~~~~~~~
+
+Put this in ++~/.vim/plugin/punishments.vim++ to train you out of the
+habit of using   ++A<CR>++   when you should be using   ++o++
+instead:
+
+  nnoremap <expr> A Penalty('A')
+  inoremap <expr> <cr> Punish("\<cr>")
