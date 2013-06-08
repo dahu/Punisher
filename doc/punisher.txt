@@ -1,4 +1,4 @@
-*punisher.vim*	For Vim version 7.3	Last change: 2013-01-13
+*punisher.vim*	Plugin that punishes bad keyboard habbits
 
 
 			VIM REFERENCE MANUAL	by Barry Arthur
